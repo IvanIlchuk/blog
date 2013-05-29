@@ -1,0 +1,45 @@
+#wrapper{
+max-width:790px;
+outline:1px solid #000000;
+padding:3 px;
+margin:0 auto;
+min-width:600px;
+}
+
+#header {
+weight:790px;
+height:149px;
+margin-bottom:0 ;
+background-image:url(img/servise1.jpg);
+}
+
+#sidebar {
+background-color:#ffffff;
+margin-bottom:0;
+width:140px;
+float:left;
+padding:20px 20px;
+}
+
+#content {
+background-color:#FFFFFF;
+margin-bottom:0;
+margin-left:160px;
+padding:20px 40px;
+}
+
+/*
+.clear{
+clear:both;
+}
+*/
+
+body {background-image:url(img/bg7.gif);	
+
+
+
+#header h1 {
+text-align:center;
+outline:1px solid #CC0000;
+}
+*/
