@@ -1,0 +1,29 @@
+<table border=0 cellspacing='0' cellpadding='2' width='100%'>
+<tr style='background-color:#eeeeee'><p align="center">
+<img src="price/29052013/termo/zalman.png" width="150" height="150">
+<td>Виробник</td><td>Zalman</td></tr><tr style='background-color:#ffffff'>
+<td>Назва (модель)</td><td>Термопаста Zalman ZM-STG2</td></tr>
+<tr style='background-color:#eeeeee'><td>Колір</td><td>Сірий</td></tr>
+<tr style='background-color:#ffffff'><td>Вмістимість</td>
+<td>3.5г</td></tr><tr style='background-color:#eeeeee'>
+<td>Теплопровідність</td><td>12</td></tr><tr style='background-color:#ffffff'>
+</tr><tr style='background-color:#eeeeee'><td></td
+tr></table><p>
+
+
+
+<table border=0 cellspacing='0' cellpadding='2' width='100%'><tr style='background-color:#eeeeee'><p align="center">
+<img src="price/29052013/toner/hp1.png" width="150" height="150">Оригінальний струйний картридж Canon. Ресурс картриджа: 244 сторінки А4 при заповненні 5% Сумісні моделі пристроїв: 
+MP230, MP240, MP250, MP260, MP270, MP280.</table>
+
+
+Назначение 	Термопасты и средства для их снятия
+Тип 	Термоинтерфейсы
+Дополнительно 	Цвет: серый
+Вместимость: 3.5 г
+Плотность при 23 ° C: 2, 88
+Тепловое сопротивление: 8 K / Вт
+Теплопроводность: 4.1Вт/м*К
+Стабильность температуры: -40 ° C ~ 150 ° C
+Размеры, вес 	Объем: 3.5 г
+Гарантия 	12 месяцев

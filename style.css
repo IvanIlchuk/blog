@@ -47,7 +47,7 @@ ul  {margin:0;
 ul li{float:right;
 }
 ul a {display:block;
-	padding:10px;
+	padding:17px;
 	line-height:10px;
 	text-decoration:none;
 	/*background-image:url(img/bg-nav1.gif);*/
@@ -60,29 +60,31 @@ ul a {display:block;
 min-height:700px; height:auto !important; height:700px; width:790px;
 margin-left: auto;
 margin-right: auto;
-background-color: #86FF64;
+background-color: #ffffff;
 }
  
 #menu {
-height: 650px;
-width: 185px;
+margin-top: 20px;
+min-height:700px; height:auto !important;
+width: 181px;
 position: relative;
 top: 0px;
 left: 0px;
 float: left;
-background-color: #026A36;
-/*border: 0 solid #999;*/
+background-color: #ffffff;
+border: 0 solid #999;
 }
  
 #content {
+margin-top: 20px;
 min-height:650px; height:auto !important; height:650px; width:605px;
 position: relative;
 margin-top: 0px;
 margin-right: 0px;
 margin-bottom: 0px;
 float: right;
-background-color: #528019;
-/*border: 0 solid #999;*/
+background-color: #ffffff;
+border: 0 solid #999;
 }
   
  
@@ -96,6 +98,54 @@ background-image:url(img/footer.jpg);
 }
 
 
+.mater {margin-top: 5px; margin-left: 5px; border:1px solid #E1E6FF; width:98%;}
+.mater_title {background-color #f6f6f6;}
+.price_name {font-weight:bold; margin-top:4px;}
+.price_adds {font-size:12px; margin-top:7px; margin-bottom:7px; color:#C0BCBF;}
+.ton{color:#5B4BC0; text-decoration:none;}
+.ton1{font-size:19px; font-style: italic; color:#23402E;}
+
 .clear{
 clear:both;
+}
+
+
+p.title {
+background-color: #348014;
+color: #ffffff;
+font-weight:bold;
+margin:5px;
+padding:5px;
+}
+
+#coolmenu{
+border: 1px solid gray; /*Стиль рамки */
+border-bottom-width: 0;
+width: 93%; /*Ширина меню */
+background-color: #f6f6f6;  /*Фоновый цвет ячейки*/
+margin:5px; /*Ширина отступов*/
+}
+
+* html #coolmenu{ 
+width: 150px;/*Ширина меню для Internet Explorer*/
+}
+
+#coolmenu a{
+font: bold 13px Verdana; /*Шрифт текста*/
+padding: 4px; /*Внутренний отсутп текста ссылки от краев ячейки*/
+padding-left: 6px;/*Внутренний отсутп текста ссылки от левого края ячейки*/
+display: block;
+width: 100%; /*Ширина ячейки*/
+color: #000000;  /*Цвет текста*/
+text-decoration: none; /*Подчеркивание у ссылок - нет*/
+border-bottom: 1px solid gray;
+}
+
+html>body #coolmenu a{ 
+width: auto;
+}
+
+#coolmenu a:hover{
+background-color: #cccccc; /*Фоновый цвет ячейки при наведение курсора*/
+color: #000000;  /*Цвет текста при наведении курсора*/
 }

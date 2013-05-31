@@ -1,7 +1,7 @@
 <?php
 include ("blocks/bd.php"); /*з'єднюємося з базою*/
 /*$result = mysql_query("SELECT title,meta_d,meta_k,text FROM settings WHERE title='price'",$db);*/
-$result = mysql_query("SELECT title,meta_d,meta_k,date,text FROM toner WHERE title='toner'",$db);
+$result = mysql_query("SELECT title,meta_d,meta_k,date,text FROM price WHERE title='price'",$db);
 $myrow = mysql_fetch_array($result);
 ?>
 
@@ -22,13 +22,19 @@ $myrow = mysql_fetch_array($result);
 <?php include("blocks/nav.php");?> <!--Підключаємо панель навігації -->
 
    <div id="fon">
-  <div id="menu"><?php include("nav1.php");?></div>
+  <div id="menu"><p align="center" class="title">Навігація</p>
+<div id="coolmenu">
+<a href="index.php">Головна</a>
+<a href="contact us.php">Контакти</a>
+<a href="about us.php">Про нас</a>
+<a href="contacts.php">Витратні матеріали</a>
+</div></div>
 
 
   <div id="content"> 
 
 <?php
-$result = mysql_query ("SELECT id,title,meta_d,meta_k,date,text FROM toner",$db);
+$result = mysql_query ("SELECT id,title,meta_d,meta_k,date,text FROM price",$db);
 
 $myrow = mysql_fetch_array ($result);
 
@@ -37,13 +43,14 @@ do {
 printf("<table align='center'  class='mater'>
 		<tr>
 			<td class='mater_title'><p class='price_name'>
-			<a class='ton'?id=%s'>%s</a>
+			<a href='view_price.php?id=%s'>%s</a>
 			<p class='price_adds'>Дата добавлення:	%s</p></td>
 		</tr>
-		<p>%s</p><p>%s</p>
+		<p>%s</p>
 		<tr>
 		</tr>
-		</table><br><br>",$myrow["id"],$myrow["meta_d"], $myrow["date"],$myrow["text"],$myrow["meta_k"]);
+		</table><br><br>",$myrow["id"],$myrow["meta_d"], $myrow["date"],$myrow["text"]);
+
 		
 }
 while ($myrow = mysql_fetch_array ($result));

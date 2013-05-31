@@ -21,7 +21,8 @@ $myrow = mysql_fetch_array($result);
 <?php include("blocks/nav.php");?> <!--Підключаємо панель навігації -->
 
    <div id="fon">
-  <div id="menu">меню</div>
+  <div id="menu"><?php include("nav.php");?></div>
+  
   <div id="content"><?php echo $myrow['text']; ?> </div>
   <!-- Тут буде розміщена інформація про наші контакти...--->
 
